@@ -30,8 +30,8 @@ console.log(a)
 console.log(s)
 
 // Objects
-let ob1 = {id:1, name:'Chirag'}
-let ob2 = {id:2, name:'Gowda'}
+let ob1 = {id:1, name:'harsha'}
+let ob2 = {id:2, name:'vardan'}
 let st = new Set()
 st.add(ob1)
 st.add(ob2)
