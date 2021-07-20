@@ -1,6 +1,6 @@
 // Converting object to map
 let obj = {
-    id: 1, name: 'Chinmayakrishna', phone: 123 
+    id: 1, name: 'harshavardhan', phone: 123 
 }
 let arr = Object.entries(obj)
 let map = new Map(arr)
