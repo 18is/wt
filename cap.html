@@ -1,0 +1,22 @@
+<html>
+<head>
+<script language="JavaScript" type="text/javascript">
+function capWords(str){ 
+   var words = str.split(" "); 
+   for (var i=0 ; i < words.length ; i++){ 
+      var testwd = words[i]; 
+      var firLet = testwd.substr(0,1); 
+      var rest = testwd.substr(1, testwd.length -1) 
+      words[i] = firLet.toUpperCase() + rest 
+   } 
+   document.write( words.join(" ")); 
+} 
+</script>
+</head>
+<body>
+<script language="JavaScript" type="text/javascript">
+capWords("my name is harsha, welcome to my place.");//change text here
+
+</script>
+</body>
+</html>
